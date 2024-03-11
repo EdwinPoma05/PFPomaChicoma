@@ -1,0 +1,329 @@
+@mixin mv( $medida : 480px){
+
+    @media  screen and (max-width: $medida){
+        @content;
+    }
+}
+
+
+
+
+
+
+
+
+
+header{
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    @include mv(){
+        .navbar-brand {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+        }
+    
+        .navbar-nav {
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            color: white !important;
+            background-color: #000000 !important;
+          }
+        .nav-item .nav-link{
+            color:white;
+            
+        }
+    
+    
+
+    }
+  
+
+   
+    
+    
+}
+
+
+
+    
+    
+
+    #quienesSomos{
+        width: 100%;
+        height: 215px;
+        background-color: #DAA520;
+    
+        pre{
+            font-size: 35px;
+            font-family: 'Roboto Condensed', sans-serif;
+            
+        }
+        h1{
+            font-size: 20px;
+        }
+
+        @include mv(){
+            width: 100%;
+            height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+    #serviciosDestacados{
+        width: 100%;
+        height: auto;
+        background-color: #000000;
+
+        @include mv(){
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        
+
+        #tituloServiciosDestacados h3{
+            color: white;
+            font-family: 'Roboto Condensed', sans-serif;
+            text-align: center;
+        }
+        #contenedorCarta{
+            width: 100%;
+            height: 290px;
+            background-color: #000000;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+
+            @include mv(){
+
+                width: 100%;
+                height: 600px;
+                display: flex;
+                background-color:black;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                
+            }
+
+
+            .cartaserviciodestacado{
+                width: 200px;
+                height: 230px;
+                background-color:#DAA520 ;
+                margin-left: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                    display: flex;
+                    
+                    
+                }
+                 h3{
+                    font-size: 18px;
+                    color: white;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    margin: 0;
+                    background-color: #4C2E05; /* añade un fondo semi-transparente */
+                    padding: 10px;
+                }
+
+                @include mv(){
+
+                    width: 200px;
+                    height: 180px;
+                    background-color:#DAA520 ;
+                    margin-left: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                     img{
+                        width: 80px;
+                        height: auto;
+                        display: flex;
+                        
+                        
+                    }
+                    
+                }
+
+
+
+        
+            }
+        }
+
+
+    }
+
+        
+ 
+    #frase{
+        width: 100%;
+        height: auto;
+        background-color: #DAA520;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+
+
+         img{
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+        @include mv(){
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            
+                p{
+                font-size: 20px;
+                color: black;
+            }
+                
+        }
+
+
+
+    }
+   
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+
+
+    @include mv(){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+
+
+    #contactanos{
+        width: 33%;
+        background-color: black;
+
+         h3,p{
+            color: white;
+        }
+
+            @include mv(){
+                    text-align: center;
+                width: 100%;
+                p{
+
+                    font-size: 20px;
+            
+            
+                }
+            }
+
+
+    }
+
+    #siguenos{
+        width: 33%;
+        background-color:black;
+         h3{
+            color: white;
+        
+        }
+
+        @include mv(){
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        
+    
+    }
+    #imagenesRedes {
+        @include mv(){
+            width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        }
+    
+    
+            img{
+            width: 80px;
+            height: 100px;
+        
+        }
+    }
+    
+    #menu{
+
+        width: 33%;
+        background-color: black;
+        h3{
+            color: white;
+        }
+    
+    }
+
+    
+}
+
+
+
+
+
+
+

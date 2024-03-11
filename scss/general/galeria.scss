@@ -1,0 +1,83 @@
+
+#parteSuperiorGaleria{
+    width: 100%;
+    height: 300px;
+    background-color: #DAA520;
+
+    #tituloGaleria{
+        width: 100%;
+        height: 50%;
+        background-color: #DAA520;
+        text-align: center;
+
+         h1{
+            font-size: 20px;
+        
+        }
+
+    }
+
+
+    #tituloExpertosBelleza{
+        width: 100%;
+        height: 50%;
+        text-align: center; 
+        background-color: #000000;  
+        
+        
+         h2,p{
+            color: white;
+        }
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#imagenesAntesDespues{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+
+
+    #parteSuperior{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+        @include mv(){
+            display: flex;
+            flex-direction: column;
+        }
+
+         img{
+            width: 20%;
+            height: 200px;
+        }
+
+         p{
+            color: black;
+        }
+    }
+}
+
+
+
+

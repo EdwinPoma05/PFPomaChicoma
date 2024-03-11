@@ -1,0 +1,143 @@
+
+
+
+
+
+header{
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   
+    
+    
+}
+
+
+
+
+
+
+#productos{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+     h1{
+        font-size: 50px;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+    }
+
+    #catalogoProductos{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+        @include mv(){
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+
+            
+        }
+
+        .cartaproductos{
+            width: 300px;
+            height: auto;
+            background-color: white;
+
+            @include mv(){
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+
+             img{
+                width: 300px;
+                height: 250px;
+            }
+            p{
+                color: #000000;
+                @include mv(){
+                    text-align: center;
+                    
+                }
+            }
+
+            button{
+                color: black;
+                background-color: #DAA520;
+                
+                border-radius:  5px;
+                margin-left: 40px ;
+
+                @include mv(){
+                   
+            button:hover{
+                /*transform: translateX(-50px);*/
+            
+                /*transform: rotateZ(100deg);*/
+                /*transform: scale(1.5,1.5);
+                transition: all 1s ease;*/
+
+                transform: scale(1.2,1.2);
+                 transition: all 1s ease;
+
+
+
+
+            }
+        
+        
+                    
+                }
+
+                
+            }
+
+            button:hover{
+                /*transform: translateX(-50px);*/
+            
+                /*transform: rotateZ(100deg);*/
+                /*transform: scale(1.5,1.5);
+                transition: all 1s ease;*/
+
+                transform: scale(1.2,1.2);
+                 transition: all 1s ease;
+
+
+
+
+            }
+        
+            
+        }
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
