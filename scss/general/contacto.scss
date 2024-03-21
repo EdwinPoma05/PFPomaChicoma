@@ -16,6 +16,27 @@
 }
 
 form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include mv-320 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ 
+        padding-top: 50px;
+ 
+        input{
+         width: 80%;
+         
+        }
+    
+      }
     @include mv(){
         height: auto;
        display: flex;
@@ -30,6 +51,37 @@ form{
         
        }
     }
+
+    @include media-queri-480-576 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ 
+        padding-top: 50px;
+ 
+        input{
+         width: 80%;
+         
+        }
+      }
+
+      @include media-query-577-768 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ 
+        padding-top: 50px;
+ 
+        input{
+         width: 80%;
+         
+        }
+
+      }
 }
 
 
