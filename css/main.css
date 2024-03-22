@@ -1021,19 +1021,19 @@ header .navbar-nav {
   transform: translateY(-40px);
   transition: 300ms;
   filter: none;
-  background-image: url(../../imagenes/modelo1.png);
+  background-image: url(../imagenes/modelo1.png);
 }
 #productos #catalogoProductos .cartaproductos:hover .imagen_producto_2 {
   transform: translateY(-40px);
   transition: 300ms;
   filter: none;
-  background-image: url(../../imagenes/modelo2.png);
+  background-image: url(../imagenes/modelo2.png);
 }
 #productos #catalogoProductos .cartaproductos:hover .imagen_producto_3 {
   transform: translateY(-40px);
   transition: 300ms;
   filter: none;
-  background-image: url(../../imagenes/modelo3.png);
+  background-image: url(../imagenes/modelo3.png);
 }
 #productos #catalogoProductos .cartaproductos:hover .iproducto {
   background-image: radial-gradient(white, purple);
