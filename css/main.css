@@ -914,7 +914,7 @@ header .navbar-nav {
 #productos #catalogoProductos .cartaproductos .iproducto .imagen_producto, #productos #catalogoProductos .cartaproductos .iproducto_2 .imagen_producto, #productos #catalogoProductos .cartaproductos .iproducto_3 .imagen_producto {
   height: 170px;
   width: 180px;
-  background-image: url(../../imagenes/productosinfondo1.png);
+  background-image: url(../imagenes/productosinfondo1.png);
   background-size: cover;
   margin-bottom: 200px;
   transition: 300ms;
@@ -923,7 +923,7 @@ header .navbar-nav {
 #productos #catalogoProductos .cartaproductos .iproducto .imagen_producto_2, #productos #catalogoProductos .cartaproductos .iproducto_2 .imagen_producto_2, #productos #catalogoProductos .cartaproductos .iproducto_3 .imagen_producto_2 {
   height: 200px;
   width: 180px;
-  background-image: url(../../imagenes/productosinfondo2.png);
+  background-image: url(../imagenes/productosinfondo2.png);
   background-size: cover;
   margin-bottom: 200px;
   transition: 300ms;
@@ -932,7 +932,7 @@ header .navbar-nav {
 #productos #catalogoProductos .cartaproductos .iproducto .imagen_producto_3, #productos #catalogoProductos .cartaproductos .iproducto_2 .imagen_producto_3, #productos #catalogoProductos .cartaproductos .iproducto_3 .imagen_producto_3 {
   height: 200px;
   width: 180px;
-  background-image: url(../../imagenes/productosinfondo3.png);
+  background-image: url(../imagenes/productosinfondo3.png);
   background-size: cover;
   margin-bottom: 200px;
   transition: 300ms;
