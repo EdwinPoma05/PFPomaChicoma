@@ -766,7 +766,7 @@ header .navbar-nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-top: 50px;
 }
 @media screen and (max-width: 320px) {
@@ -818,7 +818,7 @@ header .navbar-nav {
   }
 }
 #productos #catalogoProductos .cartaproductos {
-  width: 400px;
+  width: 360px;
   height: 350px;
   margin: 10px;
   transition: 300ms;
@@ -923,7 +923,7 @@ header .navbar-nav {
 #productos #catalogoProductos .cartaproductos .iproducto .imagen_producto_2, #productos #catalogoProductos .cartaproductos .iproducto_2 .imagen_producto_2, #productos #catalogoProductos .cartaproductos .iproducto_3 .imagen_producto_2 {
   height: 200px;
   width: 180px;
-  background-image: url(../imagenes/productosinfondo2.png);
+  background-image: url(../../imagenes/productosinfondo2.png) !important;
   background-size: cover;
   margin-bottom: 200px;
   transition: 300ms;
